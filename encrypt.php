@@ -73,6 +73,7 @@
 		),
 	  );
 
+	// The public key could be obtained from places like file, configuration, or even a public DNS text record
 	$publicKey =  base64_decode(file_get_contents("key.pub"));
 	//print "pubKey:\n".$publicKey."\n\n";
 

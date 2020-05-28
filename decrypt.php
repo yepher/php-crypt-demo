@@ -2,6 +2,8 @@
 	//////////////////
 	// TEST CODE - Usage Demo
 	//////////////////
+
+	// Unlike the public key it is very important to keep this private key secure
 	$privateKey =  base64_decode(file_get_contents("key.priv"));
 	//print "privKey:\n".$privKey."\n\n";
 
